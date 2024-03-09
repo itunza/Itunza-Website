@@ -155,10 +155,10 @@ strong {
   AVATAR IMAGE               
 -----------------------------------------*/
 .avatar-image {
-  border-radius: var(--border-radius-large);
-  width: 160px;
-  height: 160px;
-  object-fit: cover;
+  /* border-radius: var(--border-radius-large); */
+  /* width: auto; */
+  height: 6rem;
+  object-fit: contain;
 }
 
 .avatar-image-large {
@@ -522,10 +522,10 @@ strong {
   position: absolute;
   z-index: 22;
   top: 0;
-  right: 0;
+  left: 0;
   width: 100%;
   min-width: 550px;
-  transform: scaleX(-1)
+  /* transform: scaleX(-1) */
 }
 
 .hero svg {
